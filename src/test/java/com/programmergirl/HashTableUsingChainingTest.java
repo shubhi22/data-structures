@@ -10,7 +10,7 @@ import org.junit.Before;
 public class HashTableUsingChainingTest 
 {
 
-	private HashTableUsingChaining<String, String> hashTable = new HashTableUsingChaining(10);
+	private HashTableUsingChaining<String, String> hashTable = new HashTableUsingChaining(20);
 
 	@Before
 	public void init() {
