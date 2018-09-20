@@ -40,7 +40,7 @@ public class HashTableUsingChaining<K,V> {
 		HashEntry<K, V> prev = null;
 		while(current != null) {
 			if(current.key == key) {
-            //key already exists, update the value
+            	//key already exists, update the value
 				current.value = value;
 				keyExists = true;
 				break;
