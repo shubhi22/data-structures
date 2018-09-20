@@ -49,4 +49,12 @@ public class HashTableUsingChainingTest
 		assertEquals(hashTable.remove("2"), "Banana");
 		assertEquals(hashTable.size(), 2);    
 	}
+
+	@Test
+	public void givenHashTable_whenPutInvokedAndKeyPresent_thenUpdateItsValue()
+	{
+		hashTable.put("1", "Papaya");
+		assertEquals(hashTable.size(), 3); 
+		assertEquals(hashTable.get("1"), "Papaya");    
+	}
 }
